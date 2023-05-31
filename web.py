@@ -8,7 +8,7 @@ page_soup = soup(page_html, "html.parser")
 containers = page_soup.findAll("div", { "class": "_3O0U0u"})
 print(len(containers))
 print(soup.prettify(containers[0]))
-&lt;div class="_3O0U0u"&gt;
+html_code = '<div class="_3O0U0u">
  &lt;div data-id="MOBFRZZHMHQVNDFA" style="width:100%"&gt;
   &lt;div class="_1UoZlX"&gt;
    &lt;a class="_31qSD5" href="/samsung-galaxy-m01-blue-32-gb/p/itmc068b26305a0d?pid=MOBFRZZHMHQVNDFA&amp;amp;lid=LSTMOBFRZZHMHQVNDFAZXGBO6&amp;amp;marketplace=FLIPKART&amp;amp;srno=s_1_1&amp;amp;otracker=AS_QueryStore_HistoryAutoSuggest_0_2&amp;amp;otracker1=AS_QueryStore_HistoryAutoSuggest_0_2&amp;amp;fm=organic&amp;amp;iid=f9a57085-7ab9-4aba-b59d-5a4cbecd03e9.MOBFRZZHMHQVNDFA.SEARCH&amp;amp;ssid=zu9bg122ao0000001596818422200&amp;amp;qH=0258c7d48242959a" rel="noopener noreferrer" target="_blank"&gt;
